@@ -22,18 +22,12 @@ body {
 
 /* =====Container==== */
 .container {
-	/* border: 1px solid red; */
 	max-width: 1000px;
 	width: 85%;
 	height: 100%;
 	display: grid;
 	grid-template-columns: 45% 55%;
-	/* padding: 4rem; */
 }
-
-/* .container > * {
-	border: 1px solid green;
-} */
 
 /* ===Welcome message */
 .welcome__message {
@@ -133,7 +127,6 @@ form {
 }
 
 form > * {
-	/* border: 1px solid red; */
 	margin: 0;
 }
 
@@ -150,11 +143,9 @@ form > * {
 
 .input_group__field {
 	position: relative;
-	/* ---- not necessary atm ---- */
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	/* ----- */
 }
 
 .input_group__field input {
@@ -250,5 +241,6 @@ form button:hover {
 
 	form {
 		width: 90%;
+		padding: 3rem 1.8rem;
 	}
 }

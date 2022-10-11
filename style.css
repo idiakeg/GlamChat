@@ -275,5 +275,6 @@ form button:hover {
 
 	form {
 		grid-template-columns: 1fr;
+		padding: 3rem 1.8rem;
 	}
 }
