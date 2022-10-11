@@ -59,7 +59,13 @@
 					<div class="input_group">
 						<label for="password">Password</label>
 						<div class="input_group__field">
-							<input id="password" type="password" required />
+							<input
+								id="password"
+								type="password"
+								pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+								title="Password must contain at least one  number and one uppercase and lowercase letter, and at least 8 or more characters"
+								required
+							/>
 							<span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
 							<span class="icon-right"
 								><ion-icon name="eye-off"></ion-icon
